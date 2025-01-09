@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OptionHeaderView" customModule="experiment" customModuleProvider="target">
+            <connections>
+                <outlet property="image_view" destination="PxI-h1-jnB" id="Gq0-pq-S3d"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="OptionHeaderView" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="173"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sea-look-img" translatesAutoresizingMaskIntoConstraints="NO" id="PxI-h1-jnB">
+                    <rect key="frame" x="155.66666666666666" y="12" width="82" height="82"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="82" id="dgu-V8-0iW"/>
+                        <constraint firstAttribute="width" constant="82" id="y8n-LU-SzI"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lucas Scott" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ike-oG-XAm">
+                    <rect key="frame" x="24" y="110" width="345" height="20"/>
+                    <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@lucasscott3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yD8-6b-Ra6">
+                    <rect key="frame" x="24" y="134" width="345" height="14.666666666666657"/>
+                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
+                    <color key="textColor" name="StormGray"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <accessibility key="accessibilityConfiguration" identifier="OptionHeaderView"/>
+            <constraints>
+                <constraint firstItem="yD8-6b-Ra6" firstAttribute="top" secondItem="ike-oG-XAm" secondAttribute="bottom" constant="4" id="2A6-NO-Ok0"/>
+                <constraint firstItem="ike-oG-XAm" firstAttribute="top" secondItem="PxI-h1-jnB" secondAttribute="bottom" constant="16" id="2P0-Er-cWy"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="yD8-6b-Ra6" secondAttribute="trailing" constant="24" id="2zc-B1-jIa"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ike-oG-XAm" secondAttribute="trailing" constant="24" id="6f5-ii-3a2"/>
+                <constraint firstItem="PxI-h1-jnB" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Gbs-JK-6UB"/>
+                <constraint firstItem="yD8-6b-Ra6" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="sHO-4k-V01"/>
+                <constraint firstItem="PxI-h1-jnB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="vSG-Fk-zir"/>
+                <constraint firstItem="ike-oG-XAm" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="yGY-Lz-NCy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="151.90839694656489" y="57.394366197183103"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sea-look-img" width="3307" height="2214"/>
+        <namedColor name="StormGray">
+            <color red="0.44313725490196076" green="0.44705882352941179" blue="0.47843137254901963" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
