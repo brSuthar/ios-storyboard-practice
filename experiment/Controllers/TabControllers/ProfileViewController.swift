@@ -19,6 +19,8 @@ class ProfileViewController: UIViewController {
         option_table.showsVerticalScrollIndicator = false
         option_table.register(OptionViewCell.nib(), forCellReuseIdentifier: OptionViewCell.id)
         
+        option_table.allowsSelection = false
+        
         let headerView = OptionHeaderView()
         headerView.frame = CGRect(x: 0, y: 0, width: option_table.frame.width, height: 153)
         option_table.tableHeaderView = headerView

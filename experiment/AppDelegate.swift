@@ -32,6 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     // MARK: UI Changes
     func changeNavigationTitle() -> Void {
+        print(UIFont.familyNames)
 //        for family in UIFont.familyNames {
 //            print("\(family)")
 //            for name in UIFont.fontNames(forFamilyName: family) {

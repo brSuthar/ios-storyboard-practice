@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TodoViewCell" id="gTV-IL-0wX" customClass="TodoViewCell" customModule="experiment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="347" height="79"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="347" height="79"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Study mathemetics at 6:30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MuH-gq-dD2">
+                        <rect key="frame" x="24" y="14" width="299" height="20"/>
+                        <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="A path that consists of straight and curved line segments that you can render in your custom views. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5Y-mO-sBo">
+                        <rect key="frame" x="24" y="38" width="299" height="27"/>
+                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
+                        <color key="textColor" name="StormGray"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1J-Rl-iMU">
+                        <rect key="frame" x="0.0" y="0.0" width="347" height="79"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain"/>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" name="Zumthor"/>
+            <constraints>
+                <constraint firstItem="MuH-gq-dD2" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="24" id="3hl-4c-7xd"/>
+                <constraint firstItem="r5Y-mO-sBo" firstAttribute="top" secondItem="MuH-gq-dD2" secondAttribute="bottom" constant="4" id="41X-Gf-cHR"/>
+                <constraint firstItem="k1J-Rl-iMU" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="5iG-wr-Zah"/>
+                <constraint firstAttribute="trailing" secondItem="r5Y-mO-sBo" secondAttribute="trailing" constant="24" id="8WD-si-EcK"/>
+                <constraint firstItem="MuH-gq-dD2" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="14" id="IGr-GJ-n23"/>
+                <constraint firstAttribute="bottom" secondItem="r5Y-mO-sBo" secondAttribute="bottom" constant="14" id="N2d-oK-evv"/>
+                <constraint firstAttribute="trailing" secondItem="MuH-gq-dD2" secondAttribute="trailing" constant="24" id="QJL-Sd-ZRm"/>
+                <constraint firstAttribute="bottom" secondItem="k1J-Rl-iMU" secondAttribute="bottom" id="Ui9-bR-vU3"/>
+                <constraint firstAttribute="trailing" secondItem="k1J-Rl-iMU" secondAttribute="trailing" id="ccR-br-Sqp"/>
+                <constraint firstItem="r5Y-mO-sBo" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="24" id="eI1-1m-OEs"/>
+                <constraint firstItem="k1J-Rl-iMU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="foi-yf-Ybq"/>
+            </constraints>
+            <size key="customSize" width="347" height="62"/>
+            <point key="canvasLocation" x="174.80916030534351" y="23.591549295774648"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="StormGray">
+            <color red="0.44313725490196076" green="0.44705882352941179" blue="0.47843137254901963" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Zumthor">
+            <color red="0.91764705882352937" green="0.94901960784313721" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

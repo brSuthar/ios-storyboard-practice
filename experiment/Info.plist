@@ -27,6 +27,13 @@
         <string>Manrope-Medium.ttf</string>
         <string>Manrope-Regular.ttf</string>
         <string>Manrope-SemiBold.ttf</string>
+        <string>Lexend-Bold.ttf</string>
+        <string>Lexend-Medium.ttf</string>
+        <string>Lexend-Regular.ttf</string>
+        <string>Lexend-SemiBold.ttf</string>
+        <string>Lexend-ExtraBold.ttf</string>
     </array>
+    <key>NSCameraUsageDescription</key>
+    <string>This app needs access to the camera to take photos.</string>
 </dict>
 </plist>

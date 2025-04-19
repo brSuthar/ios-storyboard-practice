@@ -10,6 +10,28 @@
 		2D6940F8F6780FA97B9512AE /* Pods_experimentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9531C2C21231AA9170F9375A /* Pods_experimentTests.framework */; };
 		B7EECD5E8FA599FE15C2AC33 /* Pods_experiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8653CD28529075639007A15A /* Pods_experiment.framework */; };
 		D53D848F903AD6C65FF03343 /* Pods_experiment_experimentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4B3BD0142B3BD6B4A5E5D1 /* Pods_experiment_experimentUITests.framework */; };
+		DF1DD15A2D3D212B004788EC /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1DD1592D3D212B004788EC /* LabelStyle.swift */; };
+		DF1DD1622D3D25D3004788EC /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD15B2D3D25D3004788EC /* Manrope-Regular.ttf */; };
+		DF1DD1632D3D25D3004788EC /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD15B2D3D25D3004788EC /* Manrope-Regular.ttf */; };
+		DF1DD1642D3D25D3004788EC /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD15B2D3D25D3004788EC /* Manrope-Regular.ttf */; };
+		DF1DD1652D3D25D3004788EC /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD15C2D3D25D3004788EC /* Manrope-SemiBold.ttf */; };
+		DF1DD1662D3D25D3004788EC /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD15C2D3D25D3004788EC /* Manrope-SemiBold.ttf */; };
+		DF1DD1672D3D25D3004788EC /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD15C2D3D25D3004788EC /* Manrope-SemiBold.ttf */; };
+		DF1DD1682D3D25D3004788EC /* Manrope-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD15D2D3D25D3004788EC /* Manrope-Light.ttf */; };
+		DF1DD1692D3D25D3004788EC /* Manrope-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD15D2D3D25D3004788EC /* Manrope-Light.ttf */; };
+		DF1DD16A2D3D25D3004788EC /* Manrope-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD15D2D3D25D3004788EC /* Manrope-Light.ttf */; };
+		DF1DD16B2D3D25D3004788EC /* Manrope-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD15E2D3D25D3004788EC /* Manrope-ExtraLight.ttf */; };
+		DF1DD16C2D3D25D3004788EC /* Manrope-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD15E2D3D25D3004788EC /* Manrope-ExtraLight.ttf */; };
+		DF1DD16D2D3D25D3004788EC /* Manrope-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD15E2D3D25D3004788EC /* Manrope-ExtraLight.ttf */; };
+		DF1DD16E2D3D25D3004788EC /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD15F2D3D25D3004788EC /* Manrope-Bold.ttf */; };
+		DF1DD16F2D3D25D3004788EC /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD15F2D3D25D3004788EC /* Manrope-Bold.ttf */; };
+		DF1DD1702D3D25D3004788EC /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD15F2D3D25D3004788EC /* Manrope-Bold.ttf */; };
+		DF1DD1712D3D25D3004788EC /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD1602D3D25D3004788EC /* Manrope-ExtraBold.ttf */; };
+		DF1DD1722D3D25D3004788EC /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD1602D3D25D3004788EC /* Manrope-ExtraBold.ttf */; };
+		DF1DD1732D3D25D3004788EC /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD1602D3D25D3004788EC /* Manrope-ExtraBold.ttf */; };
+		DF1DD1742D3D25D3004788EC /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD1612D3D25D3004788EC /* Manrope-Medium.ttf */; };
+		DF1DD1752D3D25D3004788EC /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD1612D3D25D3004788EC /* Manrope-Medium.ttf */; };
+		DF1DD1762D3D25D3004788EC /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1DD1612D3D25D3004788EC /* Manrope-Medium.ttf */; };
 		DF375C822D2D8CD4002C7D3D /* SearchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF375C802D2D8CD4002C7D3D /* SearchViewCell.swift */; };
 		DF375C832D2D8CD4002C7D3D /* SearchViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF375C812D2D8CD4002C7D3D /* SearchViewCell.xib */; };
 		DF375C852D2D95F7002C7D3D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF375C842D2D95F7002C7D3D /* DetailViewController.swift */; };
@@ -40,27 +62,38 @@
 		DF6071DA2C385C3F00441879 /* experimentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6071D92C385C3F00441879 /* experimentUITestsLaunchTests.swift */; };
 		DF7BA5A52D2EBDAD00069DC2 /* ColorViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BA5A32D2EBDAD00069DC2 /* ColorViewCell.swift */; };
 		DF7BA5A62D2EBDAD00069DC2 /* ColorViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7BA5A42D2EBDAD00069DC2 /* ColorViewCell.xib */; };
+		DF8723612D383B3A00A7808D /* LetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8723602D383B3A00A7808D /* LetsViewController.swift */; };
 		DF8AC83B2D2ED0A000B9D313 /* OptionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF8AC83A2D2ED0A000B9D313 /* OptionViewCell.xib */; };
 		DF8AC83C2D2ED0A000B9D313 /* OptionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AC8392D2ED0A000B9D313 /* OptionViewCell.swift */; };
 		DF8AC8442D2EEDE000B9D313 /* OptionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AC8432D2EEDE000B9D313 /* OptionHeaderView.swift */; };
 		DF8AC8462D2EEDF000B9D313 /* OptionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF8AC8452D2EEDF000B9D313 /* OptionHeaderView.xib */; };
-		DF96E7332D1A87B0006E843D /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF96E72F2D1A87B0006E843D /* Manrope-Bold.ttf */; };
-		DF96E7342D1A87B0006E843D /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF96E7302D1A87B0006E843D /* Manrope-Regular.ttf */; };
-		DF96E7352D1A87B0006E843D /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF96E7312D1A87B0006E843D /* Manrope-SemiBold.ttf */; };
-		DF96E7362D1A87B0006E843D /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF96E7322D1A87B0006E843D /* Manrope-Medium.ttf */; };
 		DF97CA722D2403E8008E9222 /* ExploreViewControllver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF97CA712D2403E8008E9222 /* ExploreViewControllver.swift */; };
 		DF97CA752D241459008E9222 /* PerfectViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF97CA742D241459008E9222 /* PerfectViewCell.xib */; };
 		DF97CA762D241459008E9222 /* PerfectViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF97CA732D241459008E9222 /* PerfectViewCell.swift */; };
 		DF97CA792D241CF2008E9222 /* EventViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF97CA782D241CF2008E9222 /* EventViewCell.xib */; };
 		DF97CA7A2D241CF2008E9222 /* EventViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF97CA772D241CF2008E9222 /* EventViewCell.swift */; };
+		DF98B3952D3212E700363311 /* ResultViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF98B3932D3212E600363311 /* ResultViewCell.swift */; };
+		DF98B3962D3212E700363311 /* ResultViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF98B3942D3212E600363311 /* ResultViewCell.xib */; };
+		DF98B3982D32889000363311 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF98B3972D32889000363311 /* SignupViewController.swift */; };
+		DF98B39A2D32F98D00363311 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF98B3992D32F98D00363311 /* CategoryViewController.swift */; };
+		DF98B39D2D32FC2E00363311 /* CategoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF98B39B2D32FC2E00363311 /* CategoryViewCell.swift */; };
+		DF98B39E2D32FC2E00363311 /* CategoryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF98B39C2D32FC2E00363311 /* CategoryViewCell.xib */; };
+		DF98B3A12D3391DD00363311 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF98B3A02D3391DD00363311 /* CameraViewController.swift */; };
+		DF98B3A42D33A53C00363311 /* Permission.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF98B3A32D33A53C00363311 /* Permission.swift */; };
+		DF98B3A62D33A54800363311 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF98B3A52D33A54800363311 /* Enums.swift */; };
 		DFA00B162D29C2A70042167A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA00B152D29C2A70042167A /* SearchViewController.swift */; };
 		DFA00B182D2A99AC0042167A /* InputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA00B172D2A99AC0042167A /* InputStyle.swift */; };
+		DFB5E3642D3D5F4E0066A8B8 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E3632D3D5F4E0066A8B8 /* CreateViewController.swift */; };
+		DFBFB6442D3D848100E7BEBC /* SearchTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBFB6432D3D848100E7BEBC /* SearchTaskViewController.swift */; };
 		DFC9BF662D257B2B00A607D8 /* CartViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC9BF642D257B2B00A607D8 /* CartViewCell.swift */; };
 		DFC9BF672D257B2B00A607D8 /* CartViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFC9BF652D257B2B00A607D8 /* CartViewCell.xib */; };
 		DFC9BF692D257BC500A607D8 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC9BF682D257BC500A607D8 /* CartViewController.swift */; };
+		DFCB39322D39905900A394C7 /* TodoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB39302D39905900A394C7 /* TodoViewCell.swift */; };
+		DFCB39332D39905900A394C7 /* TodoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCB39312D39905900A394C7 /* TodoViewCell.xib */; };
 		DFD05E572D15DE9900DC8D31 /* UIInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD05E562D15DE9900DC8D31 /* UIInputField.swift */; };
 		DFD5CED92D22EA9E001F3A51 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD5CED82D22EA9E001F3A51 /* OnboardViewController.swift */; };
 		DFD5CEDB2D22F56D001F3A51 /* SocialRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD5CEDA2D22F56D001F3A51 /* SocialRound.swift */; };
+		DFDA21FB2D38449F001A9D92 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDA21FA2D38449F001A9D92 /* TodoViewController.swift */; };
 		DFE2E2392D0D5A5400D93079 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE2E2382D0D5A5400D93079 /* LoginViewController.swift */; };
 		DFE2E23B2D0D5A7900D93079 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE2E23A2D0D5A7900D93079 /* WelcomeViewController.swift */; };
 		DFF8158E2D1D8ADF00596C5B /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8158D2D1D8ADF00596C5B /* ApiService.swift */; };
@@ -70,6 +103,32 @@
 		DFF8159F2D1DE59700596C5B /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8159E2D1DE59700596C5B /* Posts.swift */; };
 		DFF815A42D20049D00596C5B /* UICircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF815A32D20049D00596C5B /* UICircleView.swift */; };
 		DFF815A62D20128B00596C5B /* PersonalizedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF815A52D20128A00596C5B /* PersonalizedViewController.swift */; };
+		DFFA6C3F2D3D27F5002F8673 /* Lexend-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C3E2D3D27F5002F8673 /* Lexend-Bold.ttf */; };
+		DFFA6C402D3D27F5002F8673 /* Lexend-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C3E2D3D27F5002F8673 /* Lexend-Bold.ttf */; };
+		DFFA6C412D3D27F5002F8673 /* Lexend-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C3E2D3D27F5002F8673 /* Lexend-Bold.ttf */; };
+		DFFA6C492D3D2833002F8673 /* Lexend-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C422D3D2833002F8673 /* Lexend-SemiBold.ttf */; };
+		DFFA6C4A2D3D2833002F8673 /* Lexend-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C422D3D2833002F8673 /* Lexend-SemiBold.ttf */; };
+		DFFA6C4B2D3D2833002F8673 /* Lexend-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C422D3D2833002F8673 /* Lexend-SemiBold.ttf */; };
+		DFFA6C4C2D3D2833002F8673 /* Lexend-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C432D3D2833002F8673 /* Lexend-ExtraLight.ttf */; };
+		DFFA6C4D2D3D2833002F8673 /* Lexend-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C432D3D2833002F8673 /* Lexend-ExtraLight.ttf */; };
+		DFFA6C4E2D3D2833002F8673 /* Lexend-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C432D3D2833002F8673 /* Lexend-ExtraLight.ttf */; };
+		DFFA6C4F2D3D2833002F8673 /* Lexend-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C442D3D2833002F8673 /* Lexend-Medium.ttf */; };
+		DFFA6C502D3D2833002F8673 /* Lexend-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C442D3D2833002F8673 /* Lexend-Medium.ttf */; };
+		DFFA6C512D3D2833002F8673 /* Lexend-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C442D3D2833002F8673 /* Lexend-Medium.ttf */; };
+		DFFA6C522D3D2833002F8673 /* Lexend-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C452D3D2833002F8673 /* Lexend-ExtraBold.ttf */; };
+		DFFA6C532D3D2833002F8673 /* Lexend-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C452D3D2833002F8673 /* Lexend-ExtraBold.ttf */; };
+		DFFA6C542D3D2833002F8673 /* Lexend-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C452D3D2833002F8673 /* Lexend-ExtraBold.ttf */; };
+		DFFA6C552D3D2833002F8673 /* Lexend-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C462D3D2833002F8673 /* Lexend-Regular.ttf */; };
+		DFFA6C562D3D2833002F8673 /* Lexend-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C462D3D2833002F8673 /* Lexend-Regular.ttf */; };
+		DFFA6C572D3D2833002F8673 /* Lexend-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C462D3D2833002F8673 /* Lexend-Regular.ttf */; };
+		DFFA6C582D3D2833002F8673 /* Lexend-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C472D3D2833002F8673 /* Lexend-Thin.ttf */; };
+		DFFA6C592D3D2833002F8673 /* Lexend-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C472D3D2833002F8673 /* Lexend-Thin.ttf */; };
+		DFFA6C5A2D3D2833002F8673 /* Lexend-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C472D3D2833002F8673 /* Lexend-Thin.ttf */; };
+		DFFA6C5B2D3D2833002F8673 /* Lexend-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C482D3D2833002F8673 /* Lexend-Light.ttf */; };
+		DFFA6C5C2D3D2833002F8673 /* Lexend-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C482D3D2833002F8673 /* Lexend-Light.ttf */; };
+		DFFA6C5D2D3D2833002F8673 /* Lexend-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C482D3D2833002F8673 /* Lexend-Light.ttf */; };
+		DFFA6C602D3D31EC002F8673 /* CircleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA6C5E2D3D31EC002F8673 /* CircleViewCell.swift */; };
+		DFFA6C612D3D31EC002F8673 /* CircleViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6C5F2D3D31EC002F8673 /* CircleViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +158,14 @@
 		CB4B3BD0142B3BD6B4A5E5D1 /* Pods_experiment_experimentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_experiment_experimentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D64021ACA49526BB0C25C583 /* Pods-experiment-experimentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-experiment-experimentUITests.release.xcconfig"; path = "Target Support Files/Pods-experiment-experimentUITests/Pods-experiment-experimentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D8B24BFBA085E02BFFCB7BE0 /* Pods-experiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-experiment.release.xcconfig"; path = "Target Support Files/Pods-experiment/Pods-experiment.release.xcconfig"; sourceTree = "<group>"; };
+		DF1DD1592D3D212B004788EC /* LabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
+		DF1DD15B2D3D25D3004788EC /* Manrope-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-Regular.ttf"; path = "experiment/Manrope-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		DF1DD15C2D3D25D3004788EC /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-SemiBold.ttf"; path = "experiment/Manrope-SemiBold.ttf"; sourceTree = SOURCE_ROOT; };
+		DF1DD15D2D3D25D3004788EC /* Manrope-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-Light.ttf"; path = "experiment/Manrope-Light.ttf"; sourceTree = SOURCE_ROOT; };
+		DF1DD15E2D3D25D3004788EC /* Manrope-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-ExtraLight.ttf"; path = "experiment/Manrope-ExtraLight.ttf"; sourceTree = SOURCE_ROOT; };
+		DF1DD15F2D3D25D3004788EC /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-Bold.ttf"; path = "experiment/Manrope-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		DF1DD1602D3D25D3004788EC /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-ExtraBold.ttf"; path = "experiment/Manrope-ExtraBold.ttf"; sourceTree = SOURCE_ROOT; };
+		DF1DD1612D3D25D3004788EC /* Manrope-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-Medium.ttf"; path = "experiment/Manrope-Medium.ttf"; sourceTree = SOURCE_ROOT; };
 		DF375C802D2D8CD4002C7D3D /* SearchViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewCell.swift; sourceTree = "<group>"; };
 		DF375C812D2D8CD4002C7D3D /* SearchViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewCell.xib; sourceTree = "<group>"; };
 		DF375C842D2D95F7002C7D3D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -132,27 +199,38 @@
 		DF6071D92C385C3F00441879 /* experimentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = experimentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DF7BA5A32D2EBDAD00069DC2 /* ColorViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewCell.swift; sourceTree = "<group>"; };
 		DF7BA5A42D2EBDAD00069DC2 /* ColorViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorViewCell.xib; sourceTree = "<group>"; };
+		DF8723602D383B3A00A7808D /* LetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsViewController.swift; sourceTree = "<group>"; };
 		DF8AC8392D2ED0A000B9D313 /* OptionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewCell.swift; sourceTree = "<group>"; };
 		DF8AC83A2D2ED0A000B9D313 /* OptionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionViewCell.xib; sourceTree = "<group>"; };
 		DF8AC8432D2EEDE000B9D313 /* OptionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionHeaderView.swift; sourceTree = "<group>"; };
 		DF8AC8452D2EEDF000B9D313 /* OptionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionHeaderView.xib; sourceTree = "<group>"; };
-		DF96E72F2D1A87B0006E843D /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Bold.ttf"; sourceTree = "<group>"; };
-		DF96E7302D1A87B0006E843D /* Manrope-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Regular.ttf"; sourceTree = "<group>"; };
-		DF96E7312D1A87B0006E843D /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-SemiBold.ttf"; sourceTree = "<group>"; };
-		DF96E7322D1A87B0006E843D /* Manrope-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Medium.ttf"; sourceTree = "<group>"; };
 		DF97CA712D2403E8008E9222 /* ExploreViewControllver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewControllver.swift; sourceTree = "<group>"; };
 		DF97CA732D241459008E9222 /* PerfectViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectViewCell.swift; sourceTree = "<group>"; };
 		DF97CA742D241459008E9222 /* PerfectViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PerfectViewCell.xib; sourceTree = "<group>"; };
 		DF97CA772D241CF2008E9222 /* EventViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewCell.swift; sourceTree = "<group>"; };
 		DF97CA782D241CF2008E9222 /* EventViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventViewCell.xib; sourceTree = "<group>"; };
+		DF98B3932D3212E600363311 /* ResultViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewCell.swift; sourceTree = "<group>"; };
+		DF98B3942D3212E600363311 /* ResultViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultViewCell.xib; sourceTree = "<group>"; };
+		DF98B3972D32889000363311 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		DF98B3992D32F98D00363311 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		DF98B39B2D32FC2E00363311 /* CategoryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewCell.swift; sourceTree = "<group>"; };
+		DF98B39C2D32FC2E00363311 /* CategoryViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewCell.xib; sourceTree = "<group>"; };
+		DF98B3A02D3391DD00363311 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		DF98B3A32D33A53C00363311 /* Permission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permission.swift; sourceTree = "<group>"; };
+		DF98B3A52D33A54800363311 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		DFA00B152D29C2A70042167A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		DFA00B172D2A99AC0042167A /* InputStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStyle.swift; sourceTree = "<group>"; };
+		DFB5E3632D3D5F4E0066A8B8 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		DFBFB6432D3D848100E7BEBC /* SearchTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTaskViewController.swift; sourceTree = "<group>"; };
 		DFC9BF642D257B2B00A607D8 /* CartViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewCell.swift; sourceTree = "<group>"; };
 		DFC9BF652D257B2B00A607D8 /* CartViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartViewCell.xib; sourceTree = "<group>"; };
 		DFC9BF682D257BC500A607D8 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		DFCB39302D39905900A394C7 /* TodoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewCell.swift; sourceTree = "<group>"; };
+		DFCB39312D39905900A394C7 /* TodoViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoViewCell.xib; sourceTree = "<group>"; };
 		DFD05E562D15DE9900DC8D31 /* UIInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIInputField.swift; sourceTree = "<group>"; };
 		DFD5CED82D22EA9E001F3A51 /* OnboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
 		DFD5CEDA2D22F56D001F3A51 /* SocialRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialRound.swift; sourceTree = "<group>"; };
+		DFDA21FA2D38449F001A9D92 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		DFE2E2382D0D5A5400D93079 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DFE2E23A2D0D5A7900D93079 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		DFF8158D2D1D8ADF00596C5B /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
@@ -162,6 +240,16 @@
 		DFF8159E2D1DE59700596C5B /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
 		DFF815A32D20049D00596C5B /* UICircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICircleView.swift; sourceTree = "<group>"; };
 		DFF815A52D20128A00596C5B /* PersonalizedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizedViewController.swift; sourceTree = "<group>"; };
+		DFFA6C3E2D3D27F5002F8673 /* Lexend-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lexend-Bold.ttf"; path = "experiment/Lexend-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		DFFA6C422D3D2833002F8673 /* Lexend-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lexend-SemiBold.ttf"; path = "experiment/Lexend-SemiBold.ttf"; sourceTree = SOURCE_ROOT; };
+		DFFA6C432D3D2833002F8673 /* Lexend-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lexend-ExtraLight.ttf"; path = "experiment/Lexend-ExtraLight.ttf"; sourceTree = SOURCE_ROOT; };
+		DFFA6C442D3D2833002F8673 /* Lexend-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lexend-Medium.ttf"; path = "experiment/Lexend-Medium.ttf"; sourceTree = SOURCE_ROOT; };
+		DFFA6C452D3D2833002F8673 /* Lexend-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lexend-ExtraBold.ttf"; path = "experiment/Lexend-ExtraBold.ttf"; sourceTree = SOURCE_ROOT; };
+		DFFA6C462D3D2833002F8673 /* Lexend-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lexend-Regular.ttf"; path = "experiment/Lexend-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		DFFA6C472D3D2833002F8673 /* Lexend-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lexend-Thin.ttf"; path = "experiment/Lexend-Thin.ttf"; sourceTree = SOURCE_ROOT; };
+		DFFA6C482D3D2833002F8673 /* Lexend-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lexend-Light.ttf"; path = "experiment/Lexend-Light.ttf"; sourceTree = SOURCE_ROOT; };
+		DFFA6C5E2D3D31EC002F8673 /* CircleViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewCell.swift; sourceTree = "<group>"; };
+		DFFA6C5F2D3D31EC002F8673 /* CircleViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircleViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +309,7 @@
 				DF4413D22D2936A2005CA60F /* ViewStyle.swift */,
 				DF4413D42D2939A5005CA60F /* ButtonStyle.swift */,
 				DFA00B172D2A99AC0042167A /* InputStyle.swift */,
+				DF1DD1592D3D212B004788EC /* LabelStyle.swift */,
 			);
 			path = styles;
 			sourceTree = "<group>";
@@ -228,6 +317,10 @@
 		DF4CF9452D215C3F00092678 /* xib */ = {
 			isa = PBXGroup;
 			children = (
+				DFFA6C5F2D3D31EC002F8673 /* CircleViewCell.xib */,
+				DFCB39312D39905900A394C7 /* TodoViewCell.xib */,
+				DF98B39C2D32FC2E00363311 /* CategoryViewCell.xib */,
+				DF98B3942D3212E600363311 /* ResultViewCell.xib */,
 				DF8AC83A2D2ED0A000B9D313 /* OptionViewCell.xib */,
 				DF7BA5A42D2EBDAD00069DC2 /* ColorViewCell.xib */,
 				DF375C812D2D8CD4002C7D3D /* SearchViewCell.xib */,
@@ -276,6 +369,7 @@
 				DF6071BF2C385C3F00441879 /* Assets.xcassets */,
 				DF6071C12C385C3F00441879 /* LaunchScreen.storyboard */,
 				DF6071C42C385C3F00441879 /* Info.plist */,
+				DF98B3A22D33A51500363311 /* utils */,
 				DFF815992D1DDBB600596C5B /* Controllers */,
 				DFF815922D1D98FE00596C5B /* extension */,
 				DF96E72E2D1A8795006E843D /* fonts */,
@@ -305,13 +399,35 @@
 			path = experimentUITests;
 			sourceTree = "<group>";
 		};
+		DF87235F2D3839A600A7808D /* Todo-App */ = {
+			isa = PBXGroup;
+			children = (
+				DF8723602D383B3A00A7808D /* LetsViewController.swift */,
+				DFDA21FA2D38449F001A9D92 /* TodoViewController.swift */,
+				DFB5E3632D3D5F4E0066A8B8 /* CreateViewController.swift */,
+				DFBFB6432D3D848100E7BEBC /* SearchTaskViewController.swift */,
+			);
+			path = "Todo-App";
+			sourceTree = "<group>";
+		};
 		DF96E72E2D1A8795006E843D /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				DF96E72F2D1A87B0006E843D /* Manrope-Bold.ttf */,
-				DF96E7322D1A87B0006E843D /* Manrope-Medium.ttf */,
-				DF96E7302D1A87B0006E843D /* Manrope-Regular.ttf */,
-				DF96E7312D1A87B0006E843D /* Manrope-SemiBold.ttf */,
+				DFFA6C452D3D2833002F8673 /* Lexend-ExtraBold.ttf */,
+				DFFA6C432D3D2833002F8673 /* Lexend-ExtraLight.ttf */,
+				DFFA6C482D3D2833002F8673 /* Lexend-Light.ttf */,
+				DFFA6C442D3D2833002F8673 /* Lexend-Medium.ttf */,
+				DFFA6C462D3D2833002F8673 /* Lexend-Regular.ttf */,
+				DFFA6C422D3D2833002F8673 /* Lexend-SemiBold.ttf */,
+				DFFA6C472D3D2833002F8673 /* Lexend-Thin.ttf */,
+				DFFA6C3E2D3D27F5002F8673 /* Lexend-Bold.ttf */,
+				DF1DD15F2D3D25D3004788EC /* Manrope-Bold.ttf */,
+				DF1DD1602D3D25D3004788EC /* Manrope-ExtraBold.ttf */,
+				DF1DD15E2D3D25D3004788EC /* Manrope-ExtraLight.ttf */,
+				DF1DD15D2D3D25D3004788EC /* Manrope-Light.ttf */,
+				DF1DD1612D3D25D3004788EC /* Manrope-Medium.ttf */,
+				DF1DD15B2D3D25D3004788EC /* Manrope-Regular.ttf */,
+				DF1DD15C2D3D25D3004788EC /* Manrope-SemiBold.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -324,8 +440,26 @@
 				DF4413CF2D2873E2005CA60F /* ProfileViewController.swift */,
 				DFA00B152D29C2A70042167A /* SearchViewController.swift */,
 				DF375C842D2D95F7002C7D3D /* DetailViewController.swift */,
+				DF98B3992D32F98D00363311 /* CategoryViewController.swift */,
 			);
 			path = TabControllers;
+			sourceTree = "<group>";
+		};
+		DF98B39F2D3391BD00363311 /* function-views */ = {
+			isa = PBXGroup;
+			children = (
+				DF98B3A02D3391DD00363311 /* CameraViewController.swift */,
+			);
+			path = "function-views";
+			sourceTree = "<group>";
+		};
+		DF98B3A22D33A51500363311 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				DF98B3A32D33A53C00363311 /* Permission.swift */,
+				DF98B3A52D33A54800363311 /* Enums.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 		DFD05E5A2D15DEDC00DC8D31 /* UIViewClasses */ = {
@@ -348,6 +482,10 @@
 				DF7BA5A32D2EBDAD00069DC2 /* ColorViewCell.swift */,
 				DF8AC8392D2ED0A000B9D313 /* OptionViewCell.swift */,
 				DF8AC8432D2EEDE000B9D313 /* OptionHeaderView.swift */,
+				DF98B3932D3212E600363311 /* ResultViewCell.swift */,
+				DF98B39B2D32FC2E00363311 /* CategoryViewCell.swift */,
+				DFCB39302D39905900A394C7 /* TodoViewCell.swift */,
+				DFFA6C5E2D3D31EC002F8673 /* CircleViewCell.swift */,
 			);
 			path = UIViewClasses;
 			sourceTree = "<group>";
@@ -371,6 +509,8 @@
 		DFF815992D1DDBB600596C5B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DF87235F2D3839A600A7808D /* Todo-App */,
+				DF98B39F2D3391BD00363311 /* function-views */,
 				DFE2E2382D0D5A5400D93079 /* LoginViewController.swift */,
 				DFE2E23A2D0D5A7900D93079 /* WelcomeViewController.swift */,
 				DFF815A52D20128A00596C5B /* PersonalizedViewController.swift */,
@@ -378,6 +518,7 @@
 				DF97CA702D2403C5008E9222 /* TabControllers */,
 				DFD5CED82D22EA9E001F3A51 /* OnboardViewController.swift */,
 				DF4B65E02D231F8F000CB52D /* VerifyViewController.swift */,
+				DF98B3972D32889000363311 /* SignupViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -499,23 +640,38 @@
 			files = (
 				DF8AC83B2D2ED0A000B9D313 /* OptionViewCell.xib in Resources */,
 				DF4413CE2D286FC1005CA60F /* LogoutAlertView.xib in Resources */,
-				DF96E7332D1A87B0006E843D /* Manrope-Bold.ttf in Resources */,
 				DF375C892D2D996C002C7D3D /* SizeViewCell.xib in Resources */,
 				DF97CA792D241CF2008E9222 /* EventViewCell.xib in Resources */,
-				DF96E7342D1A87B0006E843D /* Manrope-Regular.ttf in Resources */,
+				DFFA6C3F2D3D27F5002F8673 /* Lexend-Bold.ttf in Resources */,
+				DF1DD16E2D3D25D3004788EC /* Manrope-Bold.ttf in Resources */,
 				DF375C832D2D8CD4002C7D3D /* SearchViewCell.xib in Resources */,
+				DFFA6C492D3D2833002F8673 /* Lexend-SemiBold.ttf in Resources */,
 				DF4CF9492D215CBA00092678 /* PremiumViewCell.xib in Resources */,
 				DFC9BF672D257B2B00A607D8 /* CartViewCell.xib in Resources */,
+				DF1DD1742D3D25D3004788EC /* Manrope-Medium.ttf in Resources */,
+				DFCB39332D39905900A394C7 /* TodoViewCell.xib in Resources */,
+				DF1DD1682D3D25D3004788EC /* Manrope-Light.ttf in Resources */,
+				DFFA6C552D3D2833002F8673 /* Lexend-Regular.ttf in Resources */,
+				DF1DD1712D3D25D3004788EC /* Manrope-ExtraBold.ttf in Resources */,
+				DFFA6C612D3D31EC002F8673 /* CircleViewCell.xib in Resources */,
 				DF6071C02C385C3F00441879 /* Assets.xcassets in Resources */,
 				DF97CA752D241459008E9222 /* PerfectViewCell.xib in Resources */,
 				DF4CF93E2D20165A00092678 /* Main.storyboard in Resources */,
-				DF96E7362D1A87B0006E843D /* Manrope-Medium.ttf in Resources */,
 				DF7BA5A62D2EBDAD00069DC2 /* ColorViewCell.xib in Resources */,
 				DF4CF9422D20711100092678 /* PersonalizeViewCell.xib in Resources */,
+				DF1DD1652D3D25D3004788EC /* Manrope-SemiBold.ttf in Resources */,
+				DF1DD16B2D3D25D3004788EC /* Manrope-ExtraLight.ttf in Resources */,
 				DF6071C32C385C3F00441879 /* Base in Resources */,
+				DFFA6C522D3D2833002F8673 /* Lexend-ExtraBold.ttf in Resources */,
 				DF4B65E42D232873000CB52D /* CodeCollectionViewCell.xib in Resources */,
-				DF96E7352D1A87B0006E843D /* Manrope-SemiBold.ttf in Resources */,
+				DF98B3962D3212E700363311 /* ResultViewCell.xib in Resources */,
+				DF1DD1622D3D25D3004788EC /* Manrope-Regular.ttf in Resources */,
+				DFFA6C4C2D3D2833002F8673 /* Lexend-ExtraLight.ttf in Resources */,
+				DFFA6C582D3D2833002F8673 /* Lexend-Thin.ttf in Resources */,
 				DF8AC8462D2EEDF000B9D313 /* OptionHeaderView.xib in Resources */,
+				DFFA6C4F2D3D2833002F8673 /* Lexend-Medium.ttf in Resources */,
+				DFFA6C5B2D3D2833002F8673 /* Lexend-Light.ttf in Resources */,
+				DF98B39E2D32FC2E00363311 /* CategoryViewCell.xib in Resources */,
 				DF6071BE2C385C3D00441879 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +680,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1DD1662D3D25D3004788EC /* Manrope-SemiBold.ttf in Resources */,
+				DFFA6C402D3D27F5002F8673 /* Lexend-Bold.ttf in Resources */,
+				DF1DD16F2D3D25D3004788EC /* Manrope-Bold.ttf in Resources */,
+				DF1DD16C2D3D25D3004788EC /* Manrope-ExtraLight.ttf in Resources */,
+				DFFA6C5C2D3D2833002F8673 /* Lexend-Light.ttf in Resources */,
+				DFFA6C4D2D3D2833002F8673 /* Lexend-ExtraLight.ttf in Resources */,
+				DFFA6C592D3D2833002F8673 /* Lexend-Thin.ttf in Resources */,
+				DFFA6C562D3D2833002F8673 /* Lexend-Regular.ttf in Resources */,
+				DFFA6C502D3D2833002F8673 /* Lexend-Medium.ttf in Resources */,
+				DFFA6C532D3D2833002F8673 /* Lexend-ExtraBold.ttf in Resources */,
+				DF1DD1752D3D25D3004788EC /* Manrope-Medium.ttf in Resources */,
+				DF1DD1722D3D25D3004788EC /* Manrope-ExtraBold.ttf in Resources */,
+				DF1DD1692D3D25D3004788EC /* Manrope-Light.ttf in Resources */,
+				DFFA6C4A2D3D2833002F8673 /* Lexend-SemiBold.ttf in Resources */,
+				DF1DD1632D3D25D3004788EC /* Manrope-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,6 +702,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1DD1672D3D25D3004788EC /* Manrope-SemiBold.ttf in Resources */,
+				DFFA6C412D3D27F5002F8673 /* Lexend-Bold.ttf in Resources */,
+				DF1DD1702D3D25D3004788EC /* Manrope-Bold.ttf in Resources */,
+				DF1DD16D2D3D25D3004788EC /* Manrope-ExtraLight.ttf in Resources */,
+				DFFA6C5D2D3D2833002F8673 /* Lexend-Light.ttf in Resources */,
+				DFFA6C4E2D3D2833002F8673 /* Lexend-ExtraLight.ttf in Resources */,
+				DFFA6C5A2D3D2833002F8673 /* Lexend-Thin.ttf in Resources */,
+				DFFA6C572D3D2833002F8673 /* Lexend-Regular.ttf in Resources */,
+				DFFA6C512D3D2833002F8673 /* Lexend-Medium.ttf in Resources */,
+				DFFA6C542D3D2833002F8673 /* Lexend-ExtraBold.ttf in Resources */,
+				DF1DD1762D3D25D3004788EC /* Manrope-Medium.ttf in Resources */,
+				DF1DD1732D3D25D3004788EC /* Manrope-ExtraBold.ttf in Resources */,
+				DF1DD16A2D3D25D3004788EC /* Manrope-Light.ttf in Resources */,
+				DFFA6C4B2D3D2833002F8673 /* Lexend-SemiBold.ttf in Resources */,
+				DF1DD1642D3D25D3004788EC /* Manrope-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,6 +796,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFCB39322D39905900A394C7 /* TodoViewCell.swift in Sources */,
 				DF375C852D2D95F7002C7D3D /* DetailViewController.swift in Sources */,
 				DF375C822D2D8CD4002C7D3D /* SearchViewCell.swift in Sources */,
 				DFA00B162D29C2A70042167A /* SearchViewController.swift in Sources */,
@@ -619,9 +806,13 @@
 				DFA00B182D2A99AC0042167A /* InputStyle.swift in Sources */,
 				DF4CF9482D215CBA00092678 /* PremiumViewCell.swift in Sources */,
 				DF4413D52D2939A5005CA60F /* ButtonStyle.swift in Sources */,
+				DF98B3982D32889000363311 /* SignupViewController.swift in Sources */,
+				DF98B3A62D33A54800363311 /* Enums.swift in Sources */,
 				DFF815A42D20049D00596C5B /* UICircleView.swift in Sources */,
+				DF98B3A12D3391DD00363311 /* CameraViewController.swift in Sources */,
 				DF4CF9442D211FAF00092678 /* SubscriptionViewCellViewController.swift in Sources */,
 				DF4B65E52D232873000CB52D /* CodeCollectionViewCell.swift in Sources */,
+				DFBFB6442D3D848100E7BEBC /* SearchTaskViewController.swift in Sources */,
 				DF4413D02D2873E2005CA60F /* ProfileViewController.swift in Sources */,
 				DF97CA762D241459008E9222 /* PerfectViewCell.swift in Sources */,
 				DF8AC8442D2EEDE000B9D313 /* OptionHeaderView.swift in Sources */,
@@ -629,23 +820,32 @@
 				DFC9BF692D257BC500A607D8 /* CartViewController.swift in Sources */,
 				DFE2E2392D0D5A5400D93079 /* LoginViewController.swift in Sources */,
 				DFE2E23B2D0D5A7900D93079 /* WelcomeViewController.swift in Sources */,
+				DF98B39A2D32F98D00363311 /* CategoryViewController.swift in Sources */,
 				DF97CA7A2D241CF2008E9222 /* EventViewCell.swift in Sources */,
 				DF4413CC2D286F5D005CA60F /* LogoutAlertView.swift in Sources */,
 				DFC9BF662D257B2B00A607D8 /* CartViewCell.swift in Sources */,
 				DF6071BB2C385C3D00441879 /* ViewController.swift in Sources */,
+				DF1DD15A2D3D212B004788EC /* LabelStyle.swift in Sources */,
+				DF98B3952D3212E700363311 /* ResultViewCell.swift in Sources */,
 				DFD05E572D15DE9900DC8D31 /* UIInputField.swift in Sources */,
 				DF8AC83C2D2ED0A000B9D313 /* OptionViewCell.swift in Sources */,
 				DFF8159D2D1DE47E00596C5B /* UICCollectionViewCell.swift in Sources */,
+				DF98B39D2D32FC2E00363311 /* CategoryViewCell.swift in Sources */,
 				DFF8159F2D1DE59700596C5B /* Posts.swift in Sources */,
 				DF4413D32D2936A2005CA60F /* ViewStyle.swift in Sources */,
 				DF6071B72C385C3D00441879 /* AppDelegate.swift in Sources */,
 				DFF815A62D20128B00596C5B /* PersonalizedViewController.swift in Sources */,
 				DFF8158E2D1D8ADF00596C5B /* ApiService.swift in Sources */,
 				DFD5CED92D22EA9E001F3A51 /* OnboardViewController.swift in Sources */,
+				DFB5E3642D3D5F4E0066A8B8 /* CreateViewController.swift in Sources */,
+				DFFA6C602D3D31EC002F8673 /* CircleViewCell.swift in Sources */,
 				DF97CA722D2403E8008E9222 /* ExploreViewControllver.swift in Sources */,
+				DF8723612D383B3A00A7808D /* LetsViewController.swift in Sources */,
+				DF98B3A42D33A53C00363311 /* Permission.swift in Sources */,
 				DF4CF9412D20711100092678 /* PersonalizeViewCell.swift in Sources */,
 				DF4B65E12D231F8F000CB52D /* VerifyViewController.swift in Sources */,
 				DF6071B92C385C3D00441879 /* SceneDelegate.swift in Sources */,
+				DFDA21FB2D38449F001A9D92 /* TodoViewController.swift in Sources */,
 				DFF815982D1DA19C00596C5B /* UICButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -829,6 +1029,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T2DC5P73F8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = experiment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -841,7 +1042,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.experiment.experiment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hudinies.experiment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -857,6 +1058,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T2DC5P73F8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = experiment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -869,7 +1071,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.experiment.experiment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hudinies.experiment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

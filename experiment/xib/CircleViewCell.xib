@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CircleViewCell" id="gTV-IL-0wX" customClass="CircleViewCell" customModule="experiment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h1P-of-xry">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <subviews>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plus" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="2Oh-gc-H0u">
+                                <rect key="frame" x="0.0" y="2.3333333333333321" width="50" height="45.666666666666671"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="2Oh-gc-H0u" secondAttribute="bottom" id="3Eh-qi-Dqu"/>
+                            <constraint firstItem="2Oh-gc-H0u" firstAttribute="top" secondItem="h1P-of-xry" secondAttribute="top" id="SWT-Dt-4dQ"/>
+                            <constraint firstItem="2Oh-gc-H0u" firstAttribute="leading" secondItem="h1P-of-xry" secondAttribute="leading" id="g1b-HZ-fGD"/>
+                            <constraint firstAttribute="trailing" secondItem="2Oh-gc-H0u" secondAttribute="trailing" id="mp3-zp-tQv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="h1P-of-xry" secondAttribute="bottom" id="Gr8-WM-Py5"/>
+                <constraint firstAttribute="trailing" secondItem="h1P-of-xry" secondAttribute="trailing" id="K7q-kJ-c2M"/>
+                <constraint firstItem="h1P-of-xry" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="XFP-c4-X5H"/>
+                <constraint firstItem="h1P-of-xry" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="x83-9z-tkz"/>
+            </constraints>
+            <connections>
+                <outlet property="bg_view" destination="h1P-of-xry" id="Vsq-Ab-2dr"/>
+                <outlet property="plus_ic" destination="2Oh-gc-H0u" id="l2p-Ma-b6X"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="20"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
